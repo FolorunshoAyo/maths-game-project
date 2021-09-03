@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue none center center fixed;
+    font-size: larger;
+    height: 100vh;
+}
+main{
+    height: 100vh;
+    padding-top: 10em;
+}
+.container{
+    background-color: yellow;
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;  
+}
+.operand1, .operator, .operand2, .equal{
+    font-size: 4em;
+}
+.operand1{
+    padding: 0.2em;
+    border: 1px solid red;
+}
+.operand2{
+    padding: 0.2em;
+    border: 1px solid green;
+}
+.solution{
+    align-self: center;
+}
+.solution form input{
+    padding: 1em;
+}
